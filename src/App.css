@@ -1,0 +1,328 @@
+:root{
+  box-sizing: border-box;
+  background-color: #D7E5F0;
+
+
+  --blue-background: #D7E5F0;
+  --black-background: #000000;
+  --font-carlito: 'Carlito', sans-serif;
+  --font-commissioner: 'Commissioner', sans-serif;
+  --font-K: 'Diphylleia', serif;
+  --font-C: 'Cormorant Garamond', serif;
+  --font-H: 'Philosopher', sans-serif;
+  --font-B: 'Nanum Myeongjo', serif;
+
+  --border-line: 1px thin #ffffff;
+  --border-line-thick: 3px thick #ffffff;
+}
+.App-header{
+  background-color: var(--blue-background);
+  margin-top: 0;
+  max-height: 9vh;
+}
+.Intro-sm{
+  margin: 1rem;
+  padding: 0;
+  padding-bottom: 0.5rem;
+  height: 0.5rem;
+}
+.Header-div {
+  display: flex;
+}
+.Logo-name img {
+  max-height: 3rem;
+  max-width: 2rem;
+  padding: 0.8rem;
+  margin-right: -0.2rem;
+  float: left;
+}
+.Logo-name h3 {
+  font-family: 'Diphylleia';
+  font-size: 1rem;
+  color: var(--black-background);
+  font-weight: 400;
+  display: inline-table;
+}
+.Nav-links{
+  display: flex;
+  margin-left: 18em;
+}
+.Nav-links div {
+  margin: 1rem 1.8rem;
+}
+.Nav-links a {
+  text-decoration: none;
+  font-family: var(--font-C);
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #000000;
+}
+.Nav-links a:hover {
+  font-size: 1.3rem;
+  color: rgb(122, 162, 207);
+}
+
+/* PHOTO AND COPY */
+.Site-copy {
+  margin: 0 7rem;
+  display: flex;
+}
+.Intro-text {
+  padding: 1rem 2rem;
+  margin: 0 4rem ;
+  margin-top: 8rem;
+  max-width: 75vh;
+  border-right: 0;
+}
+.Salut {
+  font-family: var(--font-H);
+  font-weight: 700;
+}
+.Intro-text h2 {
+  font-family: var(--font-B);
+  font-weight: 800;
+  font-size: 2rem;
+}
+.Sub{
+  font-family: var(--font-C);
+  font-weight: 500;
+}
+.Greeting {
+  max-width: 20rem;
+}
+.Free{
+  font-family: 'Diphylleia';
+  color: rgb(33, 32, 32);
+  padding: 0.2rem;
+}
+.CV-btn{
+  padding: 0.5rem 2rem;
+  font-family: var(--font-B);
+  font-size: 0.2rem;
+  background-color: #000000;
+  margin: 2rem 0;
+  color: #D7E5F0;
+  border-radius: 0.2rem;
+}
+
+
+/* Hero IMG*/
+.Site-img {
+  margin-left: 3em;
+  margin-top: 1.9rem;
+  margin-bottom: 0;
+  position: relative;
+}
+.Intro-pic{
+  max-height: 30rem;
+  margin: -2em;
+  margin-left: 0;
+}  
+.Svg{
+  max-height: 30rem;
+  margin-top: 1.5rem;
+  margin-left: -6rem;
+}
+.Svg, .Intro-pic {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.Intro-pic{
+  z-index: 1;
+}
+
+/* About */
+.About-me{
+  background-color: var(--black-background);
+  margin: 0;
+  display: flex;
+  font-family: var(--font-B);
+}
+.About-me > div{
+  background-color: #ffffff;
+  border-radius: 0.9rem;
+  margin: 5rem 15rem;
+}
+.Container{
+  max-width: 40rem;
+  margin: 4rem;
+}
+
+/*Work*/
+.My-work > div{
+  font-family: var(--font-B);
+  margin: 5rem 18rem;
+}
+.My-work p{
+  max-width: 40rem;
+}
+.My-work img{
+  margin: 2rem 0;
+  height: 30rem;
+  max-width: 45rem;
+  border-radius: 2rem;
+} 
+
+/* MORE ABOUT*/
+.More-about{
+  background-color: #000000;
+  display: flex;
+  font-family: var(--font-B);
+}
+.More-about > div{
+  margin: 7rem;
+  background-color: #D7E5F0;
+  width: 20rem;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+/* INTERESTS */
+.Personal-about{
+  background-color: var(--blue-background);
+  font-family: var(--font-B);
+  margin: 3rem 5rem;
+}
+.Personal-about > div{
+  margin-left: 25rem;
+}
+.Personal-about > ul{
+  list-style: none;
+}
+.Personal-about li{
+  margin: 0.5rem 0;
+}
+
+/*CONTACT*/
+.Mail{
+  background-color: var(--black-background);
+  padding: 3rem;
+  margin-left: 20rem;
+  font-family: var(--font-B);
+  color: #D7E5F0;
+  max-width: 30rem;
+  border-radius: 1rem;
+}
+.Btns{
+  padding: 2rem;
+  background-color: #D7E5F0;
+}
+.button-53 {
+  color: #000000;
+  border: 0 solid rgb(26, 2, 2);
+  box-sizing: border-box;
+  background-color: var(--blue-background);
+  display: flex;
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1.75rem;
+  padding: .75rem 1.65rem;
+  margin: 2rem 4rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none #000000 solid;
+  width: 100%;
+  max-width: 20rem;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button-53:focus {
+  outline: 0;
+}
+.button-53:after {
+  content: '';
+  position: absolute;
+  border: 1px solid #021d2b;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+.button-53:hover:after {
+  content: initial;
+  bottom: 2px;
+  left: 2px;
+  border: 1px solid rgb(75, 82, 89);
+}
+.button-53 a {
+  text-decoration: none;
+  color: var(--black-background);
+}
+.Home-made {
+  font-family: var(--font-H);
+}
+@media screen and (48rem <= width < 64rem) {
+  .Logo-name img {
+    margin-right: -0.2rem;
+  }
+  .Logo-name h3 {
+    padding-top: 0.5rem;
+    font-size: 0.5rem;
+    font-weight: 300;
+  }
+  .Nav-links{
+    padding-top: 0.3rem;
+    margin-left: 8em;
+  }
+  .Nav-links div {
+    margin: 0.5rem;
+  }
+  .Nav-links a {
+    color: rgb(189, 212, 239);
+    font-size: 0.5rem;
+  }      
+}
+@media screen and (36rem < width < 48rem) {
+  .Logo-name img {
+    max-height: 1.5rem;
+    max-width: 3rem;
+    padding: 0.5rem;
+    margin-right: -0.1rem;
+    float: left;
+  }
+  .Logo-name h3 {
+    font-size: 0.5rem;
+    font-weight: 100;
+  }
+  .Nav-links{
+    margin-left: 6em;
+  }
+  .Nav-links div {
+    margin: 0.4rem;
+  }
+  .Nav-links a {
+    font-size: 0.4rem;
+    font-weight: 100;
+    color: #D7E5F0;
+  }
+  .Nav-links a::after {
+    font-size: 0.4rem;
+    color: rgb(122, 162, 207);
+  }
+}
+@media screen and (width <= 36rem) {
+  .Nav-links a,
+  .Nav-links div {
+    display: none;
+  }
+  .Logo-name img{
+    size: 3rem 4rem;
+    padding-top: 0.5rem;
+  }
+  .Logo-name h3{
+    font-weight: lighter;
+    font-size: 0.2rem;
+    display: flex;
+    background-color: aqua;
+  
+  }
+  .Header-div{
+    width: 50%;
+    max-height: 3rem;
+  }
+}
