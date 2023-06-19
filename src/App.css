@@ -64,7 +64,8 @@
 
 /* PHOTO AND COPY */
 .Site-copy {
-  margin: 0 7rem;
+  margin: 0;
+  margin-left: 2rem;
   display: flex;
 }
 .Intro-text {
@@ -256,9 +257,9 @@
 .Home-made {
   font-family: var(--font-H);
 }
-@media screen and (48rem <= width < 64rem) {
+@media (min-width: 48em and max-width: 64em) {
   .Logo-name img {
-    margin-right: -0.2rem;
+    margin-left: -2rem;
   }
   .Logo-name h3 {
     padding-top: 0.5rem;
@@ -282,7 +283,7 @@
     max-height: 1.5rem;
     max-width: 3rem;
     padding: 0.5rem;
-    margin-right: -0.1rem;
+    margin-right: -2rem;
     float: left;
   }
   .Logo-name h3 {

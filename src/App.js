@@ -224,7 +224,7 @@ function App() {
           <div className='Home-made'>
             <marquee behavior="scroll" direction="right" scrollamount="5" 
             scrolldelay="20" width="100%" onmouseover="this.stop();" onmouseout="this.start();">
-            <small>©June 2023 Made with love ❤ by Me... 
+            <small>©June 2023 Made with love ❤ by Me...
             </small>
             </marquee>
           </div>
