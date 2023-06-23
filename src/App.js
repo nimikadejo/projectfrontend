@@ -11,6 +11,7 @@ import pic5 from './imgs/Primoris1.png'
 import pic6 from './imgs/Primoris2.png'
 import pic4 from './imgs/Tendo1.png'
 import pic3 from './imgs/Tendo2.png'
+import cv from './KADEJO CS-CV.pdf'
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
               <div><a href='#contact'>contact</a></div>
               <div><a href='#work'>work</a></div>
               <div><a href='#skills'>skills</a></div>
-              <div><a href='#blog'>blog</a></div>
+              <div><a href='https://drive.google.com/drive/folders/1-DjKmzWiraKXniuTwDIlrGpv2r-Q8VQ7'>blog</a></div>
           </nav>
         </div>
       </header>
@@ -39,7 +40,7 @@ function App() {
                   Communication Management and Web Development.
                 </div> 
                 <div>
-                  <button className='CV-btn'>Download CV</button>
+                  <button className='CV-btn'><a href={cv} download="Kadejo's CV">Download CV</a></button>
                 </div>
             </section>
             <div className='Site-img'>
@@ -89,7 +90,7 @@ function App() {
             <div>
               
               <img src={pic0} alt='work sample'/>
-              <img style={{marginLeft: "5rem"}}src={pic1} alt='work sample'/>
+              <img style={{marginLeft: "-2rem"}}src={pic1} alt='work sample'/>
               <p>
                 @Glam_squadng is an online makeup store in Lagos. While I managed the
                 account, I optimised the biography of the page, oversaw the page
@@ -129,8 +130,8 @@ function App() {
           </div>
         </section>
         <section className='More-about'>
-          <div>
-            <h2 id='skills'>Get to Know Me.</h2>
+          <div id='skills'>
+            <h2>Get to Know Me.</h2>
             <p>
               I am a communication graduate whose passion in Digital Communication are relevant in content and copywriting, 
               customer communication, and service management. 
@@ -154,11 +155,6 @@ function App() {
             <p>Proof-reading</p>
             <p>Customer Service</p>
           </div>
-        </section>
-        <section className='Contact' id='contact'>
-        <div>
-        </div>
-
         </section>
 
         <section className='Personal-about'>
@@ -201,7 +197,7 @@ function App() {
           </div>
         </section>
 
-        <section className="Mail">
+        <section className="Mail" id='contact'>
           <div Mail-div>
             <div Mail-me>
             <p><h2>Thank You for Your Time ✨</h2></p>
@@ -217,7 +213,7 @@ function App() {
               <a href='https://github.com/nimikadejo'><img src="https://img.icons8.com/sf-black-filled/64/null/github.png" alt="github-logo"/></a>
               <a href='https://www.linkedin.com/in/toluwanimi-kadejo-4363851bb/'><img src="https://img.icons8.com/sf-black-filled/64/null/linkedin-circled.png" alt="linkedIn-logo" /></a>       
             </div>
-        </div>
+          </div>
         </section>
 
         <footer>
